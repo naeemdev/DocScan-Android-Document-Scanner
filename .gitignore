@@ -1,6 +1,39 @@
+# Gradle and Kotlin
 .gradle/
 build/
+.kotlin/
+.externalNativeBuild/
+.cxx/
+
+# Local machine config (SDK path)
 local.properties
+
+# IDE
 .idea/
 *.iml
-.kotlin/
+.vscode/
+captures/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+app/release/
+
+# Signing keys and secrets: never commit these
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+google-services.json
+.env
+*.env
+
+# Logs
+*.log
