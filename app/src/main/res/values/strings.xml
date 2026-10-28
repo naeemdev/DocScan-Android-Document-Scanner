@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DocScan</string>
+
+    <string name="nav_documents">Documents</string>
+    <string name="nav_tools">Tools</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="action_scan">Scan</string>
+    <string name="action_back">Back</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_delete_named">Delete %1$s</string>
+    <string name="action_delete_page">Delete this page</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_clear_search">Clear search</string>
+    <string name="action_add_pages">Add pages</string>
+    <string name="action_share_pdf">Share as PDF</string>
+    <string name="action_share_images">Share as images</string>
+    <string name="action_extract_text">Get text</string>
+    <string name="action_share_text">Share text</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_retry">Try again</string>
+    <string name="action_rotate">Rotate</string>
+    <string name="action_earlier">Earlier</string>
+    <string name="action_later">Later</string>
+    <string name="action_crop">Crop</string>
+    <string name="action_adjust">Adjust</string>
+    <string name="action_sign">Sign</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_done">Done</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_close">Close</string>
+    <string name="action_create">Create</string>
+    <string name="action_unlock">Unlock</string>
+    <string name="action_get_pro">Get Pro</string>
+    <string name="action_save_txt">Save as .txt file</string>
+    <string name="action_open_link">Open link</string>
+
+    <string name="search_hint">Search titles and text</string>
+    <string name="search_empty_title">Nothing matches “%1$s”</string>
+    <string name="search_empty_body">Search looks at titles and at text you have pulled from pages.</string>
+    <string name="home_empty_title">No documents yet</string>
+    <string name="home_empty_body">Tap Scan to photograph paper and turn it into a clean PDF.</string>
+
+    <plurals name="page_count">
+        <item quantity="one">%d page</item>
+        <item quantity="other">%d pages</item>
+    </plurals>
+    <string name="page_number">Page %1$d</string>
+    <string name="page_of">Page %1$d of %2$d</string>
+
+    <string name="delete_document_title">Delete document?</string>
+    <string name="delete_document_body">All of its pages are removed from this phone. This cannot be undone.</string>
+    <string name="delete_page_title">Delete page?</string>
+    <string name="delete_page_body">The page is removed from the document.</string>
+    <string name="delete_last_page_body">This is the only page, so the whole document is deleted.</string>
+    <string name="document_missing_title">Document not found</string>
+    <string name="document_missing_body">It may have been deleted.</string>
+    <string name="rename_label">Title</string>
+
+    <string name="ocr_title">Text</string>
+    <string name="ocr_reading">Reading pages…</string>
+    <string name="ocr_empty_title">No text found</string>
+    <string name="ocr_empty_body">Try a sharper photo, or the Black &amp; white filter.</string>
+    <string name="ocr_error_title">Could not read the text</string>
+    <string name="ocr_error_body">Something went wrong while reading these pages.</string>
+    <string name="text_copied">Copied</string>
+
+    <string name="tool_qr_title">QR code</string>
+    <string name="tool_qr_body">Point the camera at a code to read it.</string>
+    <string name="tool_qr_result">Code contents</string>
+
+    <string name="settings_page_size">PDF page size</string>
+    <string name="settings_default_filter">Filter for new scans</string>
+
+    <string name="filter_original">Original</string>
+    <string name="filter_enhance">Sharpen</string>
+    <string name="filter_grayscale">Grayscale</string>
+    <string name="filter_black_white">Black &amp; white</string>
+    <string name="filter_lighten">Brighten</string>
+
+    <string name="page_size_a4">A4</string>
+    <string name="page_size_letter">US Letter</string>
+    <string name="page_size_fit">Same as photo</string>
+
+    <string name="default_title_prefix">Scan</string>
+    <string name="document_title_pattern">%1$s %2$s</string>
+    <string name="default_title_date_only_pattern" translatable="false">yyyy-MM-dd</string>
+    <string name="default_title_date_pattern" translatable="false">yyyy-MM-dd HH.mm</string>
+    <string name="document_meta">%1$s · %2$s</string>
+
+    <string name="settings_your_data">Your data</string>
+    <string name="settings_data_local">Scans stay on this phone. Nothing is uploaded.</string>
+    <string name="action_delete_all">Delete all documents</string>
+    <string name="delete_all_title">Delete everything?</string>
+    <string name="delete_all_body">Every document and page is removed from this phone. This cannot be undone.</string>
+    <string name="error_no_app">No app on this phone can open that.</string>
+
+    <plurals name="merged_document_title">
+        <item quantity="one">%1$s + %2$d more</item>
+        <item quantity="other">%1$s + %2$d more</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="one">%d selected</item>
+        <item quantity="other">%d selected</item>
+    </plurals>
+    <plurals name="delete_documents_title">
+        <item quantity="one">Delete document?</item>
+        <item quantity="other">Delete %d documents?</item>
+    </plurals>
+    <string name="action_select">Select</string>
+    <string name="action_clear_selection">Stop selecting</string>
+    <string name="action_merge">Combine into one document</string>
+    <string name="action_scan_back">Scan back</string>
+
+    <string name="tool_id_title">ID card</string>
+    <string name="tool_id_body">Scan the front and back of a card onto one page.</string>
+    <string name="id_back_title">Now the back</string>
+    <string name="id_back_body">Front saved. Turn the card over and scan the other side.</string>
+    <string name="tool_pdf_title">Import PDF</string>
+    <string name="tool_pdf_body">Bring an existing PDF in to edit, search or combine.</string>
+    <string name="error_pdf">Could not open that PDF. It may be password-protected or damaged.</string>
+
+    <plurals name="moved_count">
+        <item quantity="one">%d document moved</item>
+        <item quantity="other">%d documents moved</item>
+    </plurals>
+    <string name="action_move_to_folder">Move to folder</string>
+    <string name="action_new_folder">New folder</string>
+    <string name="action_delete_folder">Delete folder</string>
+    <string name="folder_all">All</string>
+    <string name="folder_chip">%1$s (%2$d)</string>
+    <string name="folder_options">Options for %1$s</string>
+    <string name="folder_none">No folder</string>
+    <string name="folder_name_label">Folder name</string>
+    <string name="folder_empty_title">This folder is empty</string>
+    <string name="folder_empty_body">Select documents, then use Move to folder. New scans made here land here too.</string>
+    <string name="delete_folder_title">Delete “%1$s”?</string>
+    <string name="delete_folder_body">The folder goes away. Its documents stay and show under All.</string>
+
+    <string name="adjust_brightness">Brightness</string>
+    <string name="adjust_contrast">Contrast</string>
+
+    <string name="crop_title">Crop</string>
+    <string name="crop_hint">Drag the four corners to the edges of the paper.</string>
+    <string name="crop_invalid">The corners cross or the area is too small. Move them apart.</string>
+    <string name="crop_whole_page">Whole image</string>
+    <string name="crop_image_description">Original scan</string>
+    <string name="crop_corner_top_left">Top-left corner. Drag to move.</string>
+    <string name="crop_corner_top_right">Top-right corner. Drag to move.</string>
+    <string name="crop_corner_bottom_right">Bottom-right corner. Drag to move.</string>
+    <string name="crop_corner_bottom_left">Bottom-left corner. Drag to move.</string>
+
+    <string name="sign_new_title">New signature</string>
+    <string name="sign_new_hint">Sign with your finger on the line.</string>
+    <string name="sign_pad_description">Signature pad</string>
+    <string name="action_save_signature">Save signature</string>
+    <string name="sign_saved_title">Your signatures</string>
+    <string name="sign_saved_empty">No saved signatures yet.</string>
+    <string name="sign_use_saved">Use this signature</string>
+    <string name="sign_delete_saved">Delete this signature</string>
+    <string name="action_new_signature">Draw a new signature</string>
+    <string name="action_remove_signature">Remove signature from this page</string>
+    <string name="sign_place_title">Place signature</string>
+    <string name="sign_place_hint">Drag the signature where it belongs.</string>
+    <string name="sign_size">Size</string>
+    <string name="sign_overlay_description">Signature. Drag to move.</string>
+    <string name="action_place_signature">Place here</string>
+
+    <string name="paywall_title">DocScan Pro</string>
+    <string name="paywall_subtitle">For signing and stamping your documents.</string>
+    <string name="paywall_feature_signature">Draw your signature once, sign any page</string>
+    <string name="paywall_feature_watermark">Stamp your own text across exported pages</string>
+    <string name="paywall_feature_free_stays">Scanning, text and PDFs stay free, without a watermark</string>
+    <string name="paywall_already_pro">You have Pro. Thank you!</string>
+    <string name="paywall_unavailable">Google Play can’t show plans right now. Check your connection and try again.</string>
+    <string name="paywall_cta">Continue</string>
+    <string name="paywall_restore">Restore purchases</string>
+    <string name="paywall_terms">Payment through Google Play. Subscriptions renew until you cancel them in Google Play.</string>
+    <string name="paywall_pending">Payment pending. Pro unlocks as soon as Google Play confirms it.</string>
+    <string name="paywall_failed">The purchase didn’t go through. You were not charged.</string>
+    <string name="paywall_restored">Pro restored.</string>
+    <string name="paywall_nothing_to_restore">No Pro purchase found for this Google account.</string>
+    <string name="plan_monthly">Monthly</string>
+    <string name="plan_yearly">Yearly</string>
+    <string name="plan_lifetime">Lifetime</string>
+    <string name="plan_best_value">Best value</string>
+    <string name="plan_period_month">%1$s / month</string>
+    <string name="plan_period_year">%1$s / year</string>
+    <string name="plan_period_once">%1$s once</string>
+
+    <string name="settings_pdf_quality">PDF quality</string>
+    <string name="quality_small">Small file</string>
+    <string name="quality_balanced">Balanced</string>
+    <string name="quality_high">Sharpest</string>
+    <string name="settings_naming">Naming new documents</string>
+    <string name="settings_name_prefix">Name starts with</string>
+    <string name="title_style_date_time">Then date and time</string>
+    <string name="title_style_date">Then date only</string>
+    <string name="settings_watermark">Watermark</string>
+    <string name="settings_watermark_label">Text on exported pages</string>
+    <string name="settings_watermark_help">Leave empty for no watermark.</string>
+    <string name="settings_watermark_locked">Stamp your own text on exports with Pro.</string>
+    <string name="settings_pro">Pro</string>
+    <string name="settings_pro_active">Pro is active on this device.</string>
+    <string name="settings_pro_inactive">Signatures and watermarks come with Pro.</string>
+    <string name="settings_debug">Testing (debug builds only)</string>
+    <string name="settings_debug_pro">Pretend Pro is owned</string>
+
+    <string name="share_chooser_title">Send to</string>
+    <string name="error_import">Could not save the scan. Try again.</string>
+    <string name="error_scanner">The scanner is not available on this device right now.</string>
+    <string name="error_generic">Something went wrong. Try again.</string>
+</resources>

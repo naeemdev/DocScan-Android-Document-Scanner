@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sample content shown only in Compose @Preview. -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
+    <string name="preview_doc_lease" translatable="false">Lease agreement – signed copy</string>
+    <string name="preview_doc_receipts" translatable="false">Receipts October</string>
+    <string name="preview_doc_long" translatable="false">Chemistry notes week 4 with a really long title that keeps going</string>
+    <string name="preview_search_query" translatable="false">invoice</string>
+    <string name="preview_qr_value" translatable="false">https://example.com/menu</string>
+    <string name="preview_ocr_text" translatable="false">RESIDENTIAL LEASE\n\nThis agreement is made between the landlord and the tenant for the property described below.\n\n1. Term. The lease starts on the first day of the month…</string>
+    <string name="preview_watermark" translatable="false">CONFIDENTIAL</string>
+    <string name="preview_prefix" translatable="false">Receipt</string>
+    <string name="preview_folder_receipts" translatable="false">Receipts</string>
+    <string name="preview_folder_ids" translatable="false">IDs</string>
+</resources>
